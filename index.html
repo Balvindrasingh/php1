@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student Record</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Records</h1>
+        <nav>
+            <a href="view_content.php">View Records</a>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Add Student Record</h2>
+            <form action="form.php" method="POST">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+
+                <label for="grade">Grade:</label>
+                <input type="number" id="grade" name="grade" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Records</p>
+    </footer>
+</body>
+</html>
